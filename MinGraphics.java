@@ -26,10 +26,12 @@ public class MinGraphics extends JPanel implements Runnable{
 			}
 		}
 	}
-	public void pain(Graphics g){
-
+	public void paint(Graphics g){
+		super.paint(g);
 	}
 	public static void main(String[] args){
 		new MinGraphics(1000,500);
 	}
+
+	
 }
